@@ -1,0 +1,35 @@
+{
+  "name": "webcrypto-tsscmp",
+  "version": "1.0.0",
+  "description": "time-safe string compare using Web Crypto API",
+  "main": "dist/tsscmp.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "crypto"
+  ],
+  "author": "John Elliott <john@primitivemachine.com> (http://primitivemachine.com/)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-typescript": "^7.7.7",
+    "@types/expect-puppeteer": "^3.3.3",
+    "@types/jest": "^24.0.25",
+    "@types/jest-environment-puppeteer": "^4.3.1",
+    "@types/puppeteer": "^2.0.0",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.9.0",
+    "jest-dev-server": "^4.4.0",
+    "jest-puppeteer": "^4.4.0",
+    "node-static": "^0.7.11",
+    "puppeteer": "^2.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "worker-loader": "^2.0.0"
+  }
+}

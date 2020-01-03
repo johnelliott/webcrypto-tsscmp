@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2018",
+    "outDir": "./dist"
+  },
+  "lib": [
+    "ES2018",
+    "WebWorker"
+  ],
+  "include": [
+    "./src/**/*.ts",
+    "./fixture/**/*.ts"
+  ],
+  "exclude": [
+    "./src/**/*.test.ts"
+  ]
+}

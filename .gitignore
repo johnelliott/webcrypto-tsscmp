@@ -1,0 +1,19 @@
+# misc
+.DS_Store
+
+# Compiled sources
+*.log
+
+# node libraries
+node_modules
+dump.rdb
+
+.idea/
+*.iml
+
+docs/
+dist/
+.env*
+.current_revision
+.npmrc
+.cache/
